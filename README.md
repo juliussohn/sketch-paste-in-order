@@ -1,6 +1,8 @@
 # Paste in Order - Sketch Plugin
 This plugin allows you to copy and paste layers between artboards, while keeping their position in the layer list.
 
+![Plugin preview](https://raw.githubusercontent.com/juliussohn/sketch-paste-in-order/master/preview.gif)
+
 
 ## Usage
 1. Select the layers to copy
