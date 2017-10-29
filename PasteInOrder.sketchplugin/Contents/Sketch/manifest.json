@@ -1,0 +1,30 @@
+{
+  "name": "Paste in order",
+  "identifier": "juliussohn.pasteorder",
+  "version": "1.0",
+  "description": "Copy and paste layers while keeeping the position in the layer list",
+  "authorEmail": "juiussohn@icloud.com",
+  "author": "Julius Sohn",
+  "commands": [
+    {
+      "script": "paste.js",
+      "handler": "onPasteInOrder",
+      "shortcut": "command ctrl alt v",
+      "name": "Paste in order",
+      "identifier": "copy"
+    },
+    {
+      "script": "paste.js",
+      "handler": "onCopyWithOrder",
+      "shortcut": "command ctrl alt c",
+      "name": "Copy with order",
+      "identifier": "paste"
+    }
+  ],
+  "menu": {
+    "items": [
+      "copy",
+      "paste"
+    ]
+  }
+}
